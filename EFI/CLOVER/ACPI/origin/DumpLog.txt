@@ -1,0 +1,162 @@
+21:616  0:220  Found BIOS RSDP at F0000
+21:616  0:000  Printing ACPI tables from RSDP F0000 ...
+21:616  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+21:616  0:000    (Xsdt: BE2FB0A0, Rsdt: BE2FB028)
+21:616  0:000    BE2FB0A0: 'XSDT', 'Notebook', Rev: 1, Len: 196
+21:616  0:000    BE2FB028: 'RSDT', 'Notebook', Rev: 1, Len: 116
+21:616  0:000    Tables in Xsdt: 20
+21:616  0:000    0. BE311A08: 'FACP', 'Notebook', Rev: 5, Len: 268
+21:616  0:000        (Dsdt: BE2FB278, Facs: BE9A3F80, XDsdt: BE2FB278, XFacs: 0)
+21:616  0:000        BE2FB278: 'DSDT', 'Notebook', Rev: 2, Len: 92045
+21:619  0:002        BE9A3F80: 'FACS', Ver: 2, Len: 64
+21:619  0:000    1. BE311B18: 'APIC', 'Notebook', Rev: 3, Len: 114
+21:619  0:000    2. BE311B90: 'FPDT', 'Notebook', Rev: 1, Len: 68
+21:619  0:000    3. BE311BD8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+21:619  0:000    4. BE311CA0: 'LPIT', '', Rev: 1, Len: 148
+21:619  0:000    5. BE311D38: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+21:619  0:000    6. BE311EB0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+21:619  0:000    7. BE3123F0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+21:619  0:000    8. BE312EC8: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+21:619  0:000    9. BE3131A8: 'SSDT', 'ApTst', Rev: 1, Len: 840
+21:619  0:000    10. BE3134F0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+21:619  0:000    11. BE313530: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+21:619  0:000    12. BE3165A0: 'HPET', 'Notebook', Rev: 1, Len: 56
+21:619  0:000    13. BE3165D8: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+21:619  0:000    14. BE316870: 'SSDT', 'SaSsdt ', Rev: 1, Len: 16103
+21:619  0:000    15. BE31A758: 'SSDT', 'SgPch', Rev: 1, Len: 3084
+21:619  0:000    16. BE31B368: 'ASF!', ' HCG', Rev: 32, Len: 165
+21:619  0:000    17. BDE6D018: 'FPBA', 'Notebook', Rev: 0, Len: 131108
+21:619  0:000    18. BE33B438: 'SSDT', 'OptTabl', Rev: 1, Len: 5247
+21:619  0:000    19. BE04FE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+21:619  0:000    Tables in Rsdt: 20
+21:619  0:000    0. BE2FB168: 'FACP', 'Notebook', Rev: 2, Len: 268
+21:619  0:000        (Dsdt: BE2FB278, Facs: BE9A3F40)
+21:619  0:000        BE2FB278: 'DSDT', 'Notebook', Rev: 2, Len: 92045
+21:622  0:002        BE9A3F40: 'FACS', Ver: 0, Len: 64
+21:622  0:000    1. BE311B18: 'APIC', 'Notebook', Rev: 3, Len: 114
+21:622  0:000    2. BE311B90: 'FPDT', 'Notebook', Rev: 1, Len: 68
+21:622  0:000    3. BE311BD8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+21:622  0:000    4. BE311CA0: 'LPIT', '', Rev: 1, Len: 148
+21:622  0:000    5. BE311D38: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+21:622  0:000    6. BE311EB0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+21:622  0:000    7. BE3123F0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+21:622  0:000    8. BE312EC8: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+21:622  0:000    9. BE3131A8: 'SSDT', 'ApTst', Rev: 1, Len: 840
+21:622  0:000    10. BE3134F0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+21:622  0:000    11. BE313530: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+21:622  0:000    12. BE3165A0: 'HPET', 'Notebook', Rev: 1, Len: 56
+21:622  0:000    13. BE3165D8: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+21:622  0:000    14. BE316870: 'SSDT', 'SaSsdt ', Rev: 1, Len: 16103
+21:622  0:000    15. BE31A758: 'SSDT', 'SgPch', Rev: 1, Len: 3084
+21:622  0:000    16. BE31B368: 'ASF!', ' HCG', Rev: 32, Len: 165
+21:622  0:000    17. BDE6D018: 'FPBA', 'Notebook', Rev: 0, Len: 131108
+21:622  0:000    18. BE33B438: 'SSDT', 'OptTabl', Rev: 1, Len: 5247
+21:622  0:000    19. BE04FE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+21:622  0:000  Found UEFI Acpi 2.0 RSDP at BE2FB000
+21:622  0:000  Saving ACPI tables from RSDP BE2FB000 to EFI\CLOVER\ACPI\origin ...
+21:622  0:000   BE2FB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+21:622  0:000    (Xsdt: BE2FB0A0, Rsdt: BE2FB028)
+21:622  0:000    BE2FB0A0: 'XSDT', 'Notebook', Rev: 1, Len: 196
+21:622  0:000    BE2FB028: 'RSDT', 'Notebook', Rev: 1, Len: 116
+21:622  0:000    Tables in Xsdt: 20
+21:622  0:000    0. BE311A08: 'FACP', 'Notebook', Rev: 5, Len: 268
+21:622  0:000        (Dsdt: BE2FB278, Facs: BE9A3F80, XDsdt: BE2FB278, XFacs: 0)
+21:622  0:000        BE2FB278: 'DSDT', 'Notebook', Rev: 2, Len: 92045
+21:625  0:002        BE9A3F80: 'FACS', Ver: 2, Len: 64
+21:625  0:000    1. BE311B18: 'APIC', 'Notebook', Rev: 3, Len: 114
+21:625  0:000    2. BE311B90: 'FPDT', 'Notebook', Rev: 1, Len: 68
+21:625  0:000    3. BE311BD8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+21:625  0:000    4. BE311CA0: 'LPIT', '', Rev: 1, Len: 148
+21:625  0:000    5. BE311D38: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+21:625  0:000    6. BE311EB0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+21:625  0:000    7. BE3123F0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+21:625  0:000    8. BE312EC8: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+21:625  0:000    9. BE3131A8: 'SSDT', 'ApTst', Rev: 1, Len: 840
+21:625  0:000    10. BE3134F0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+21:625  0:000    11. BE313530: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+21:625  0:000    12. BE3165A0: 'HPET', 'Notebook', Rev: 1, Len: 56
+21:625  0:000    13. BE3165D8: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+21:625  0:000    14. BE316870: 'SSDT', 'SaSsdt ', Rev: 1, Len: 16103
+21:625  0:000    15. BE31A758: 'SSDT', 'SgPch', Rev: 1, Len: 3084
+21:625  0:000    16. BE31B368: 'ASF!', ' HCG', Rev: 32, Len: 165
+21:625  0:000    17. BDE6D018: 'FPBA', 'Notebook', Rev: 0, Len: 131108
+21:625  0:000    18. BE33B438: 'SSDT', 'OptTabl', Rev: 1, Len: 5247
+21:625  0:000    19. BE04FE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+21:625  0:000    Tables in Rsdt: 20
+21:625  0:000    0. BE2FB168: 'FACP', 'Notebook', Rev: 2, Len: 268
+21:625  0:000        (Dsdt: BE2FB278, Facs: BE9A3F40)
+21:625  0:000        BE2FB278: 'DSDT', 'Notebook', Rev: 2, Len: 92045
+21:628  0:002        BE9A3F40: 'FACS', Ver: 0, Len: 64
+21:628  0:000    1. BE311B18: 'APIC', 'Notebook', Rev: 3, Len: 114
+21:628  0:000    2. BE311B90: 'FPDT', 'Notebook', Rev: 1, Len: 68
+21:628  0:000    3. BE311BD8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+21:628  0:000    4. BE311CA0: 'LPIT', '', Rev: 1, Len: 148
+21:628  0:000    5. BE311D38: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+21:628  0:000    6. BE311EB0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+21:628  0:000    7. BE3123F0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+21:628  0:000    8. BE312EC8: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+21:628  0:000    9. BE3131A8: 'SSDT', 'ApTst', Rev: 1, Len: 840
+21:628  0:000    10. BE3134F0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+21:628  0:000    11. BE313530: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+21:628  0:000    12. BE3165A0: 'HPET', 'Notebook', Rev: 1, Len: 56
+21:628  0:000    13. BE3165D8: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+21:628  0:000    14. BE316870: 'SSDT', 'SaSsdt ', Rev: 1, Len: 16103
+21:628  0:000    15. BE31A758: 'SSDT', 'SgPch', Rev: 1, Len: 3084
+21:628  0:000    16. BE31B368: 'ASF!', ' HCG', Rev: 32, Len: 165
+21:628  0:000    17. BDE6D018: 'FPBA', 'Notebook', Rev: 0, Len: 131108
+21:628  0:000    18. BE33B438: 'SSDT', 'OptTabl', Rev: 1, Len: 5247
+21:628  0:000    19. BE04FE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+21:628  0:000  Found UEFI Acpi 1.0 RSDP at BE2FB000
+21:628  0:000  Printing ACPI tables from RSDP BE2FB000 ...
+21:628  0:000   BE2FB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+21:628  0:000    (Xsdt: BE2FB0A0, Rsdt: BE2FB028)
+21:628  0:000    BE2FB0A0: 'XSDT', 'Notebook', Rev: 1, Len: 196
+21:628  0:000    BE2FB028: 'RSDT', 'Notebook', Rev: 1, Len: 116
+21:628  0:000    Tables in Xsdt: 20
+21:628  0:000    0. BE311A08: 'FACP', 'Notebook', Rev: 5, Len: 268
+21:628  0:000        (Dsdt: BE2FB278, Facs: BE9A3F80, XDsdt: BE2FB278, XFacs: 0)
+21:628  0:000        BE2FB278: 'DSDT', 'Notebook', Rev: 2, Len: 92045
+21:631  0:002        BE9A3F80: 'FACS', Ver: 2, Len: 64
+21:631  0:000    1. BE311B18: 'APIC', 'Notebook', Rev: 3, Len: 114
+21:631  0:000    2. BE311B90: 'FPDT', 'Notebook', Rev: 1, Len: 68
+21:631  0:000    3. BE311BD8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+21:631  0:000    4. BE311CA0: 'LPIT', '', Rev: 1, Len: 148
+21:631  0:000    5. BE311D38: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+21:631  0:000    6. BE311EB0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+21:631  0:000    7. BE3123F0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+21:631  0:000    8. BE312EC8: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+21:631  0:000    9. BE3131A8: 'SSDT', 'ApTst', Rev: 1, Len: 840
+21:631  0:000    10. BE3134F0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+21:631  0:000    11. BE313530: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+21:631  0:000    12. BE3165A0: 'HPET', 'Notebook', Rev: 1, Len: 56
+21:631  0:000    13. BE3165D8: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+21:631  0:000    14. BE316870: 'SSDT', 'SaSsdt ', Rev: 1, Len: 16103
+21:631  0:000    15. BE31A758: 'SSDT', 'SgPch', Rev: 1, Len: 3084
+21:631  0:000    16. BE31B368: 'ASF!', ' HCG', Rev: 32, Len: 165
+21:631  0:000    17. BDE6D018: 'FPBA', 'Notebook', Rev: 0, Len: 131108
+21:631  0:000    18. BE33B438: 'SSDT', 'OptTabl', Rev: 1, Len: 5247
+21:631  0:000    19. BE04FE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+21:631  0:000    Tables in Rsdt: 20
+21:631  0:000    0. BE2FB168: 'FACP', 'Notebook', Rev: 2, Len: 268
+21:631  0:000        (Dsdt: BE2FB278, Facs: BE9A3F40)
+21:631  0:000        BE2FB278: 'DSDT', 'Notebook', Rev: 2, Len: 92045
+21:634  0:002        BE9A3F40: 'FACS', Ver: 0, Len: 64
+21:634  0:000    1. BE311B18: 'APIC', 'Notebook', Rev: 3, Len: 114
+21:634  0:000    2. BE311B90: 'FPDT', 'Notebook', Rev: 1, Len: 68
+21:634  0:000    3. BE311BD8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+21:634  0:000    4. BE311CA0: 'LPIT', '', Rev: 1, Len: 148
+21:634  0:000    5. BE311D38: 'SSDT', 'zpoddult', Rev: 1, Len: 372
+21:634  0:000    6. BE311EB0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+21:634  0:000    7. BE3123F0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+21:634  0:000    8. BE312EC8: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 734
+21:634  0:000    9. BE3131A8: 'SSDT', 'ApTst', Rev: 1, Len: 840
+21:634  0:000    10. BE3134F0: 'MCFG', 'Notebook', Rev: 1, Len: 60
+21:634  0:000    11. BE313530: 'SSDT', 'DptfTabl', Rev: 1, Len: 12397
+21:634  0:000    12. BE3165A0: 'HPET', 'Notebook', Rev: 1, Len: 56
+21:634  0:000    13. BE3165D8: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+21:634  0:000    14. BE316870: 'SSDT', 'SaSsdt ', Rev: 1, Len: 16103
+21:634  0:000    15. BE31A758: 'SSDT', 'SgPch', Rev: 1, Len: 3084
+21:634  0:000    16. BE31B368: 'ASF!', ' HCG', Rev: 32, Len: 165
+21:634  0:000    17. BDE6D018: 'FPBA', 'Notebook', Rev: 0, Len: 131108
+21:634  0:000    18. BE33B438: 'SSDT', 'OptTabl', Rev: 1, Len: 5247
+21:634  0:000    19. BE04FE18: 'MSDM', 'Notebook', Rev: 3, Len: 85
