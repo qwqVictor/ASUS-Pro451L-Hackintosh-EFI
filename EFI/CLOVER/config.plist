@@ -12,33 +12,37 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
-				<key>AddDTGP_0001</key>
+				<key>AddDTGP</key>
 				<true/>
-				<key>AddIMEI_80000</key>
+				<key>AddIMEI</key>
 				<true/>
-				<key>AddPNLF_1000000</key>
+				<key>AddPNLF</key>
 				<true/>
-				<key>FIX_ACST_4000000</key>
+				<key>FakeLPC</key>
 				<true/>
-				<key>FIX_RTC_20000</key>
+				<key>FixACST</key>
 				<true/>
-				<key>FIX_WAK_200000</key>
+				<key>FixAirport</key>
 				<true/>
-				<key>FakeLPC_0020</key>
+				<key>FixDarwin7</key>
 				<true/>
-				<key>FixAirport_4000</key>
+				<key>FixHDA</key>
 				<true/>
-				<key>FixDarwin7_10000</key>
+				<key>FixHPET</key>
 				<true/>
-				<key>FixHDA_8000</key>
+				<key>FixHeaders</key>
 				<true/>
-				<key>FixHPET_0010</key>
+				<key>FixIPIC</key>
 				<true/>
-				<key>FixIPIC_0040</key>
+				<key>FixRTC</key>
 				<true/>
-				<key>FixShutdown_0004</key>
+				<key>FixRegions</key>
 				<true/>
-				<key>FixUSB_1000</key>
+				<key>FixShutdown</key>
+				<true/>
+				<key>FixUSB</key>
+				<true/>
+				<key>FixWAK</key>
 				<true/>
 			</dict>
 			<key>Name</key>
@@ -285,14 +289,14 @@
 		<false/>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
-		<key>Fast</key>
-		<true/>
 		<key>Legacy</key>
 		<false/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
+		<key>Timeout</key>
+		<integer>0</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -301,7 +305,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>3</string>
+			<string>28</string>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -330,8 +334,7 @@
 	<dict>
 		<key>Hide</key>
 		<array>
-			<string>Windows</string>
-			<string>BOOTX64.EFI</string>
+			<string>Preboot</string>
 		</array>
 		<key>Language</key>
 		<string>zh_CN:0</string>
@@ -351,16 +354,16 @@
 			<key>Entries</key>
 			<true/>
 			<key>Legacy</key>
-			<true/>
+			<false/>
 			<key>Linux</key>
 			<false/>
 			<key>Tool</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1366x768</string>
 		<key>Theme</key>
-		<string>OSS</string>
+		<string>BootCamp</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -611,12 +614,6 @@
 	<dict>
 		<key>CsrActiveConfig</key>
 		<string>0x00</string>
-		<key>MLB</key>
-		<string></string>
-		<key>ROM</key>
-		<data>
-		Ye26+xza
-		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -630,8 +627,6 @@
 		<string>Mac-189A3D4F975D5FFC</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string></string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -658,17 +653,11 @@
 		<string>0x02</string>
 		<key>ProductName</key>
 		<string>MacBookPro11,1</string>
-		<key>SerialNumber</key>
-		<string></string>
-		<key>SmUUID</key>
-		<string></string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string></string>
 		<key>ExposeSysVariables</key>
 		<true/>
 		<key>InjectKexts</key>
