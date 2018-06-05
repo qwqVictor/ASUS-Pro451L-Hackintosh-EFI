@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>15B42</string>
+	<string>15D21</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>CodecCommander</string>
 	<key>CFBundleGetInfoString</key>
-	<string>2.5.0, Copyright © 2013-2014 TimeWalker. All rights reserved.</string>
+	<string>2.5.2, Copyright © 2013-2014 TimeWalker. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.tw.CodecCommander</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.5.0</string>
+	<string>2.5.2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -27,11 +27,11 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.5.0</string>
+	<string>2.5.2</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>7B1005</string>
+	<string>7C1002</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -39,9 +39,9 @@
 	<key>DTSDKName</key>
 	<string>macosx10.6</string>
 	<key>DTXcode</key>
-	<string>0711</string>
+	<string>0721</string>
 	<key>DTXcodeBuild</key>
-	<string>7B1005</string>
+	<string>7C1002</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>CodecCommander</key>
@@ -50,16 +50,14 @@
 			<string>org.tw.CodecCommander</string>
 			<key>Codec Profile</key>
 			<dict>
-				<key>1002</key>
-				<string>Disabled HDMI</string>
-				<key>10de</key>
-				<string>Disabled HDMI</string>
 				<key>10ec_0233</key>
 				<string>Realtek ALC283,etc</string>
 				<key>10ec_0235</key>
 				<string>Realtek ALC283,etc</string>
 				<key>10ec_0255</key>
 				<string>Realtek ALC283,etc</string>
+				<key>10ec_0256</key>
+				<string>Realtek ALC256</string>
 				<key>10ec_0269</key>
 				<string>Realtek ALC269</string>
 				<key>10ec_0269_HDA_1028_04d9</key>
@@ -80,8 +78,6 @@
 				<string>Realtek ALC892 desktop</string>
 				<key>10ec_0900</key>
 				<string>Realtek ALC1150</string>
-				<key>8086</key>
-				<string>Disabled HDMI</string>
 				<key>Default</key>
 				<dict>
 					<key>Check Infinitely</key>
@@ -153,6 +149,46 @@
 					<false/>
 					<key>Update Nodes</key>
 					<false/>
+				</dict>
+				<key>Realtek ALC256</key>
+				<dict>
+					<key>Custom Commands</key>
+					<array>
+						<dict>
+							<key>Command</key>
+							<data>
+							AZcHJA==
+							</data>
+							<key>Comment</key>
+							<string>0x19 SET_PIN_WIDGET_CONTROL 0x24</string>
+							<key>On Init</key>
+							<true/>
+							<key>On Sleep</key>
+							<false/>
+							<key>On Wake</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<data>
+							AhcIgw==
+							</data>
+							<key>Comment</key>
+							<string>0x21 SET_UNSOLICITED_ENABLE 0x83</string>
+							<key>On Init</key>
+							<true/>
+							<key>On Sleep</key>
+							<false/>
+							<key>On Wake</key>
+							<true/>
+						</dict>
+					</array>
+					<key>Perform Reset</key>
+					<true/>
+					<key>Send Delay</key>
+					<integer>10</integer>
+					<key>Sleep Nodes</key>
+					<true/>
 				</dict>
 				<key>Realtek ALC269</key>
 				<dict>

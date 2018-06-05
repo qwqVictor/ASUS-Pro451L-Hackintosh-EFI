@@ -12,37 +12,37 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
-				<key>AddDTGP</key>
+				<key>AddDTGP_0001</key>
 				<true/>
-				<key>AddIMEI</key>
+				<key>AddIMEI_80000</key>
 				<true/>
-				<key>AddPNLF</key>
+				<key>AddPNLF_1000000</key>
 				<true/>
-				<key>FakeLPC</key>
+				<key>FIX_ACST_4000000</key>
 				<true/>
-				<key>FixACST</key>
+				<key>FIX_RTC_20000</key>
 				<true/>
-				<key>FixAirport</key>
+				<key>FIX_WAK_200000</key>
 				<true/>
-				<key>FixDarwin7</key>
+				<key>FakeLPC_0020</key>
 				<true/>
-				<key>FixHDA</key>
+				<key>FixAirport_4000</key>
 				<true/>
-				<key>FixHPET</key>
+				<key>FixDarwin7_10000</key>
 				<true/>
-				<key>FixHeaders</key>
+				<key>FixHDA_8000</key>
 				<true/>
-				<key>FixIPIC</key>
+				<key>FixHPET_0010</key>
 				<true/>
-				<key>FixRTC</key>
+				<key>FixHeaders_20000000</key>
 				<true/>
-				<key>FixRegions</key>
+				<key>FixIPIC_0040</key>
 				<true/>
-				<key>FixShutdown</key>
+				<key>FixRegions_10000000</key>
 				<true/>
-				<key>FixUSB</key>
+				<key>FixShutdown_0004</key>
 				<true/>
-				<key>FixWAK</key>
+				<key>FixUSB_1000</key>
 				<true/>
 			</dict>
 			<key>Name</key>
