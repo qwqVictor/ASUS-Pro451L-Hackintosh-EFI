@@ -19,9 +19,9 @@ The SMBIOS information was **cleaned**, please generate it yourself.** (very imp
 ### Computer Hardware: 
 - [x] CPU: Intel Core i5-4200U 2.39GHz
 - [x] RAM: 8GB DDR3 1600MHz (Added a 4GB one)
-- [x] 硬盘: WDC SSD 128GB (Replaced by myself)
-- [x] 显卡: Intel HD Graphics 4400 1536MB + NVIDIA GeForce 820M 2GB (Optimus GPU, disabled)
-- [x] 声卡: Conexant SmartAudio CX20751/2 (Microphone doesn't work with AppleALC)
+- [x] Hard Drive: WDC SSD 128GB (Replaced by myself)
+- [x] Graphics Card: Intel HD Graphics 4400 1536MB + NVIDIA GeForce 820M 2GB (Optimus GPU, disabled)
+- [x] Sound Card: Conexant SmartAudio CX20751/2 (Microphone doesn't work with AppleALC)
 - [x] LAN: Realtek RTL8168
 - [x] Wi-Fi/Bluetooth: Broadcom BCM94352HMB (Replaced by myself)  
 - [x] Touchpad: ELAN Touchpad
